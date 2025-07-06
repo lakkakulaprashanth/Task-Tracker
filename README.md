@@ -34,6 +34,31 @@ A simple Task Tracker web application built with **Spring Boot**, **Spring Data 
 ![UI Screenshot](UI-preview.png)
 
 ---
+## Step-By-Step RoadMap
+✅ Phase 1: Setup Backend with Spring Boot
+- Create a Spring Boot project using Spring Initializr
+
+- Dependencies: Spring Web, Spring Data JPA, H2 or MySQL
+
+- Build a Task model (id, title, description, status)
+- - Mapped to a database table called tasks using @Entity and @Table(name = "tasks")
+- - @GeneratedValue will auto-generate primary key id using @id
+- - we used @Column(nullable = false) annotation for fields title and status(pending/completed)
+  - 
+
+- Create a TaskRepository using Spring Data JPA
+
+- Add a TaskController with REST endpoints:
+
+- GET /tasks
+
+- POST /tasks
+
+- PUT /tasks/{id}
+
+- DELETE /tasks/{id}
+
+---
 
 ## ⚙️ How to Run Locally
 
