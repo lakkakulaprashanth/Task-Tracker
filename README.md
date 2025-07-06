@@ -31,7 +31,7 @@ A simple Task Tracker web application built with **Spring Boot**, **Spring Data 
 
 > Simple task creation form and task list displayed on the homepage.
 
-![UI Screenshot](screenshot.png)
+![UI Screenshot](UI-preview.png)
 
 ---
 
